@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "sketchup": {
+      "command": "python",
+      "args": ["-m", "sketchup_mcp_server"],
+      "description": "Servidor MCP para interactuar con Trimble SketchUp (creación de componentes, materiales y transformaciones 3D)"
+    },
+    "rvt-mcp": {
+      "command": "python",
+      "args": ["-m", "rvt_mcp_server"],
+      "description": "Servidor MCP para interactuar con Autodesk Revit (auditoría BIM, metrados OE.3 y detección de interferencias)"
+    }
+  }
+}
